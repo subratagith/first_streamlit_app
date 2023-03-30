@@ -1,4 +1,9 @@
 import streamlit
+
+import snowflake.connector
+from urllib.error import URLError
+
+
 streamlit.title("My Mom's New Healthy Diner")
 
 streamlit.header('Breakfast Menu')
@@ -65,7 +70,7 @@ streamlit.dataframe(fruityvice_response)
 
 
 
-######
+
 try:
   fruit_choice = streamlit.text_input('What fruit would you like information about?')
   if not fruit_choice:
