@@ -20,8 +20,7 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_to_show)
 #create the repeatable code block called a function
 #def get_fruityvice_data(this_fruit_choice):
- 
-  #return fruityvice_normalized
+#return fruityvice_normalized
 #New Section to display Fruityvice API Response
 streamlit.header("Fruityvice Fruit Advice!")
 try:
