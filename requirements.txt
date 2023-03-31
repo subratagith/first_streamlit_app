@@ -2,3 +2,4 @@
  snowflake-connector-python 
  cffi==1.15.0 
  pyarrow==6.0.1
+ streamlit >= 1.9.2
