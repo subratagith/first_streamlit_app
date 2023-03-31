@@ -1,9 +1,7 @@
 # requirements.txt
 #snowflake-connector-python
 
-cffi==1.15.0
 
-pyarrow=6.0.1
 
 #streamlit >= 1.9.2
 
@@ -11,6 +9,8 @@ pyarrow=6.0.1
 #charset-normalizer==2.0.12
 
 snowflake-connector-python
+cffi==1.15.0
+pyarrow=6.0.1
 #charset-normalizer~=2.0.0
 
 
