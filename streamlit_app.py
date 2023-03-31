@@ -39,7 +39,7 @@ try:
   else:
       back_form_function = get_fruityvice_data(fruit_choice)
       streamlit.dataframe(back_form_function)
-      except URLError as e:
+  except URLError as e:
         streamlit.error()
         
         streamlit.write('The user entered ', fruit_choice)
